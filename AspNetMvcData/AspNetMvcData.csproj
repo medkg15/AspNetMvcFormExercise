@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Callouts\Callout.cs" />
-    <Compile Include="Callouts\ICalloutQuery.cs" />
-    <Compile Include="Callouts\MockCalloutQuery.cs" />
     <Compile Include="Leads\CreateLead.cs" />
     <Compile Include="Leads\ILeadHandler.cs" />
     <Compile Include="Leads\MockLeadHandler.cs" />

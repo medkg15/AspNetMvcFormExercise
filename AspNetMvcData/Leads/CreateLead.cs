@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AspNetMvcData.Leads
 {
+    /// <summary>
+    /// Represents a new sales lead submitted online.
+    /// </summary>
     public class CreateLead
     {
         public string FirstName { get; set; }
