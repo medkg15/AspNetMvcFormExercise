@@ -9,12 +9,13 @@ Implement a Sales Lead (e.g. "Contact Us") form using ASP.NET MVC.  An example o
 ## Requirements
 
 * Utilize the features of ASP.NET MVC to develop the form - Razor, etc.
-* Include client and server-side validation of the user's input using ASP.NET MVC techniques.
-* Flow:
+* Include client and server-side validation of the user's input using ASP.NET MVC validation techniques.
+* Expected Flow:
 	* User requests the form at the URL /lead.
 	* Display the form to the user.
 	* User submits the form (standard server-side form POST).
 	* Server processes the form submission, displaying errors or handling a successful request, as appropriate.
+	* Display a thank you message or other success notification.
 
 ## Implementation
 
